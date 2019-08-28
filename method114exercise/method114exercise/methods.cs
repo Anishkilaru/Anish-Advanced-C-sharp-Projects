@@ -6,7 +6,7 @@ namespace method114exercise
 {
    public class methods
     {
-        public int  methodOne(int num1)
+        public  int  methodOne(int num1)
         {
             num1 = Convert.ToInt32(Console.ReadLine());
             int total = num1 * 3;
@@ -14,11 +14,18 @@ namespace method114exercise
             return total;
         }
 
-        public double methodOne(double num2)
+        public  double methodOne(double num2)
         {
             num2 = 4.5;
             double total2 = num2 / 1;
             return total2;
+        }
+        public decimal methodFour(decimal num4)
+        {
+            num4 = 10.5M;
+            decimal b = 5.4M;
+            decimal final = num4 * b;
+            return final;
         }
 
         public int methodOne( string uinput)
